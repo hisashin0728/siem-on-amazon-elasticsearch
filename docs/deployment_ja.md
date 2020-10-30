@@ -105,7 +105,7 @@ Amazon VPC に関するパラメーターと説明です。
 
 |パラメータ|説明|
 |----------|----|
-|vpc_typ|新しい Amazon VPC を作成する場合は "new"を、既存の Amazon VPC を利用する場合は "imported" を入力。編集するパラメーターとして、新規の場合はnew_vpc_XXXX、既存の利用は imported_vpc_XXXX を修正する|
+|vpc_typ|新しい Amazon VPC を作成する場合は "new"を、既存の Amazon VPC を利用する場合は "import" を入力。編集するパラメーターとして、新規の場合はnew_vpc_XXXX、既存の利用は imported_vpc_XXXX を修正する|
 |imported_vpc_id|SIEM on Amazon ES をデプロイする Amazon VPC の ID を入力|
 |imported_vpc_subnetX|3つの、[VPC サブネット ID]、[アベイラビリティーゾーン]、[ルートテーブル ID] を入力|
 |new_vpc_nw_cidr_block|新規に作成する Amazon VPC の IP と CIDR ブロックを入力。形式は、IP アドレス/サブネットマスク数。例) 192.0.2.0/24|
